@@ -12,7 +12,7 @@ This project implements a Deep Belief Network (DBN) for classifying images, util
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone (https://github.com/geeranlone/Deep-Belief-Network-with-Restricted-Boltzmann-Machine-for-Image-Classification.git)
    ```
 
 2. Install the required dependencies:
