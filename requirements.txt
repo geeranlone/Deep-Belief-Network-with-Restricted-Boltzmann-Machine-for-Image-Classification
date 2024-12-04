@@ -1,0 +1,6 @@
+tensorflow==latest
+matplotlib==latest
+numpy==latest
+sklearn==latest
+seaborn==latest
+pandas==latest
