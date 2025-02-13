@@ -1,4 +1,4 @@
-# Deep Belief Network for Image Classification
+# Deep Belief Network with Restricted Boltzmann Machine for Image Classification
 
 This project implements a Deep Belief Network (DBN) for classifying images, utilizing TensorFlow and other essential libraries. The notebook demonstrates pretraining, fine-tuning, and evaluation of the model.
 
