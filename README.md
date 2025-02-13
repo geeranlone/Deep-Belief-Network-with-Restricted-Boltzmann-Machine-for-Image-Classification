@@ -1,6 +1,5 @@
 # Deep Belief Network with Restricted Boltzmann Machine for Image Classification
-
-This project implements a Deep Belief Network (DBN) for classifying images, utilizing TensorFlow and other essential libraries. The notebook demonstrates pretraining, fine-tuning, and evaluation of the model.
+You have implemented a Deep Belief Network (DBN) using Restricted Boltzmann Machines (RBMs) for the task of plant disease classification. The process involved loading and preprocessing an augmented dataset of plant disease images, normalizing the pixel values, and defining an RBM class to pretrain the layers of the DBN. You pretrained two RBMs sequentially, where the hidden representation of the first RBM was used as input to the second RBM. After pretraining, you constructed the DBN by stacking the RBMs and adding a final softmax output layer for classification. The DBN was then trained on the dataset using early stopping to prevent overfitting. Finally, you evaluated the model's performance on the validation set, generating metrics such as accuracy, confusion matrix, precision, recall, and F1-score to assess its effectiveness in classifying plant diseases.
 
 ## Project Structure
 
